@@ -26,6 +26,14 @@ var alphabet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k",
 "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
 
 //Array to select a random word
-var rand = words[Math.floor(Math.random() * words.length)];
+var randWord = words[Math.floor(Math.random() * words.length)]; 
+var chosenWord = words[randWord];
+console.log(randWord);
 
-//
+//underscores based on the length of the word
+
+//Get user guest
+//check if guess is right
+//if guess is right, push to the right array
+//check if guess is wrong
+//if guess is wrong, push to the wrong array
