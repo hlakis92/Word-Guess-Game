@@ -17,7 +17,8 @@
     
     
     <!-- Javascript link --> 
-    <script src="assets/Javascript/game.js"></script>
+   <script src="assets/Javascript/game.js"></script>
+    <!-- <script src="assets/Javascript/game1.js"></script> -->
     
 
 
@@ -33,6 +34,25 @@
         h1 {
             color: yellow;
         }
+        .wordBlank {
+            border: solid black 2px;
+            text-align: center;
+            font-size: 30px;
+        } 
+        . {
+            border: solid black 2px;
+            text-align: center;
+        }   
+        .wrongGuess {
+            border: solid black 2px;
+            text-align: center;
+        }
+        #guessesLeft {
+            border: solid black 2px;
+            text-align: center;
+        }     
+     
+
         .jumbotron{
             margin-top: 10%;
             word-wrap: break-word;
@@ -103,13 +123,18 @@
 
 
                 <div class="col-md-6">
-                        <div class="underscores">___ ___ ___</div>
-                        <div class="right guess">Rigth Guess!!</div>
-                        <div class="wrong guess">Wrong Guess!!</div>
 
+                        <div class="wordBlank"><br></div>
+                        <br>
+                        <!-- <div id="#">Guesses Left:</div> -->
+                        <div id="guessesLeft">Lives Left</div>
+                        <br>
+                        <div class="wrongGuess">Wrong Guess!!</div>
+                        <br>
+                        
                       </div>
                 <div class="col-md-6 pull-left">
-                  
+                        
                     
                      
 
